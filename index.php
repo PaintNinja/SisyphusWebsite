@@ -48,7 +48,7 @@
 					<header>
 						<h2>Sisyphus</h2>
 					</header>
-					<p>Short description or slogan here</p>
+					<p>An Open-world, Story Driven, Survival Experiance</p>
 					<footer>
 						<a href="#work" class="button style2 down">More</a>
 					</footer>
