@@ -724,7 +724,7 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('images/overlay.png'), url('../images/bg.jpg');
+		background: url('images/overlay.png'), url('../images/bg.webp'), url('../images/bg.jxr'), url('../images/bg.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
