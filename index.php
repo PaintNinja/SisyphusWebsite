@@ -126,7 +126,7 @@
 
 				<!-- Menu -->
 					<ul class="menu">
-						<li>&copy; Truverity</li><li>Design: Truverity web team and <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; <?php echo date("Y") ?> Truverity</li><li>Design: Truverity web team and <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 			
 			</footer>
