@@ -3,10 +3,10 @@
 @import url('font-awesome.min.css');
 @font-face {
     font-family: firstfont;
-    src: url(fonts/SPETETRIAL.eot);
-    src: url(fonts/SPETETRIAL.eot?#iefix) format('embedded-opentype'),
-         url(fonts/SPETETRIAL.woff) format('woff'),
-		 url(fonts/SPETETRIAL.ttf)  format('truetype');
+    src: url(../fonts/SPETETRIAL.eot);
+    src: url(../fonts/SPETETRIAL.eot?#iefix) format('embedded-opentype');
+    src: url(../fonts/SPETETRIAL.woff) format('woff');
+	src: url(../fonts/SPETETRIAL.ttf)  format('truetype');
 }
 /*
 	Big Picture by HTML5 UP
