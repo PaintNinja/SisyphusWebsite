@@ -725,10 +725,10 @@
 
 	#intro {
 		background: url('images/overlay.png'), url('../images/bg.webp'), url('../images/bg.jxr'), url('../images/bg.jpg');
-		background-size: 256px 256px, cover;
+		background-size: 256px 256px, cover, cover, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background-position: top left, bottom center, bottom center, bottom center;
+		background-repeat: repeat, no-repeat, no-repeat, no-repeat;
 	}
 
 	#intro h2 {
