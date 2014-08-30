@@ -35,8 +35,8 @@
 						<ul>
 							<li><a href="#intro">Home</a></li>
 							<li><a href="#one">Media</a></li>
-							<li><a href="#two">Blog</a></li>
-							<li><a href="#work">Forum</a></li>
+							<li><a href="#work">Blog</a></li>
+							<li><a href="#two">Forum</a></li>
 						</ul>
 					</nav>
 
