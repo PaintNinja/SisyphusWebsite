@@ -46,7 +46,9 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content container small">
 					<header>
-						<h2>Sisyphus</h2>
+						<div id="logo-image-wrapper">
+   							<img src="images/logo.png" />
+						</div>
 					</header>
 					<p>An Open-world, Story Driven, Survival Experiance.</p>
 					<footer>

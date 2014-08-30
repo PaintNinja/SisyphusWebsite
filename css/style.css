@@ -736,6 +736,20 @@
 		font-weight: 400;
 	}
 
+	#intro #logo-image-wrapper{
+    	max-width:70%;
+    	height:auto;
+    	position: relative;
+   		display:block;
+   		margin:0 auto;
+	}
+
+	#intro #logo-image-wrapper img{
+    	width:100% !important;
+    	height:100% !important;
+    	display:block;
+	}
+
 /*********************************************************************************/
 /* One                                                                           */
 /*********************************************************************************/
