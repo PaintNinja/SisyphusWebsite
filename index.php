@@ -106,7 +106,7 @@
 									</a>
 									<?php the_excerpt(); ?>
 								</li>	
-						<? } 
+						<?php } 
 							} else {
 								echo '<p>There are no posts available</p>';
 							}
