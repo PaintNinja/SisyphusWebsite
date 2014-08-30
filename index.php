@@ -30,17 +30,13 @@
 		<!-- Header -->
 			<header id="header">
 
-				<!-- Logo -->
-					<h1 id="logo">Sisyphus</h1>
-				
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro">Home</a></li>
-							<li><a href="#one">Blog</a></li>
-							<li><a href="#two">Forum</a></li>
-							<li><a href="#work">My Work</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="#one">Media</a></li>
+							<li><a href="#two">Blog</a></li>
+							<li><a href="#work">Forum</a></li>
 						</ul>
 					</nav>
 
