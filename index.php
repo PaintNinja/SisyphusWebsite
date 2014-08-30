@@ -89,7 +89,7 @@
 						<?php 
 							require($_SERVER['DOCUMENT_ROOT'] . '/blog/wp-load.php'); 
 							$args = array(
-								'cat' => 3, // Only source posts from a specific category
+								'cat' => 1, // Only source posts from a specific category
 								'posts_per_page' => 2 // Specify how many posts you'd like to display
 							);
 							$latest_posts = new WP_Query( $args ); 	
