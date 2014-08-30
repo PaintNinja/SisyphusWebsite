@@ -17,6 +17,7 @@
 		<script src="js/jquery.scrollgress.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/togglesound.js"</script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -29,8 +30,13 @@
 
 		<!-- Header -->
 			<header id="header">
-
+				<audio id="background_audio" autoplay loop>
+					<source src="media/wind.ogg" type="audio/ogg">
+					<source src="media/wind.mp3" type="audio/mpeg">
+					<source src="media/wind.wav" type="audio/vnd.wav">
+				</audio>
 				<!-- Nav -->
+					<a href="#noscroll" id="mute">Toggle sound</a>
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro">Home</a></li>
