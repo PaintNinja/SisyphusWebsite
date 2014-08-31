@@ -36,7 +36,7 @@
 				</audio>
 				-->
 				<!-- Nav -->
-					<a href="#noscroll" id="mute">Toggle sound</a>
+					<!--<a href="#noscroll" id="mute">Toggle sound</a>-->
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro">Home</a></li>
