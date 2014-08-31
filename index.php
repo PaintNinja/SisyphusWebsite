@@ -57,9 +57,6 @@
 						</div>
 					</header>
 					<p>An Open-world, Story Driven, Survival Experiance.</p>
-					<footer>
-						<a href="#work" class="button style2 down">More</a>
-					</footer>
 				</div>
 			</section>
 				
