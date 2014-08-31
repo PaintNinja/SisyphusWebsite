@@ -717,7 +717,14 @@
 					line-height: 3em;
 					padding: 0 0.5em 0 0.5em;
 					outline: 0;
+					-webkit-transition: all 0.5s;
+					transition: all 0.5s;
 				}
+				
+					#nav ul li a:hover {
+						-webkit-animation: glow 1.5s ease-in-out infinite alternate;
+						animation: glow 1.5s ease-in-out infinite alternate;
+					}
 
 /*********************************************************************************/
 /* Intro                                                                         */
