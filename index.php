@@ -28,11 +28,13 @@
 
 		<!-- Header -->
 			<header id="header">
+				<!--
 				<audio id="background_audio" autoplay loop>
 					<source src="media/wind.ogg" type="audio/ogg">
 					<source src="media/wind.mp3" type="audio/mpeg">
 					<source src="media/wind.wav" type="audio/vnd.wav">
 				</audio>
+				-->
 				<!-- Nav -->
 					<a href="#noscroll" id="mute">Toggle sound</a>
 					<nav id="nav">
