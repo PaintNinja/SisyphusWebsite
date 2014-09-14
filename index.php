@@ -23,72 +23,78 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<link rel="stylesheet" href="css/glow.css" />
-	</head>
-	<body>
+</head>
+<body>
 
-		<!-- Header -->
-			<header id="header">
-				<!--
-				<audio id="background_audio" autoplay loop>
-					<source src="media/wind.ogg" type="audio/ogg">
-					<source src="media/wind.mp3" type="audio/mpeg">
-					<source src="media/wind.wav" type="audio/vnd.wav">
-				</audio>
-				-->
-				<!-- Nav -->
-					<!--<a href="#noscroll" id="mute">Toggle sound</a>-->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro">Home</a></li>
-							<li><a href="#one">Media</a></li>
-							<li><a href="#work">Blog</a></li>
-							<li><a href="#two">Forum</a></li>
-						</ul>
-					</nav>
+	<!-- Header -->
+		<header id="header">
+			<!--
+			<audio id="background_audio" autoplay loop>
+				<source src="media/wind.ogg" type="audio/ogg">
+				<source src="media/wind.mp3" type="audio/mpeg">
+				<source src="media/wind.wav" type="audio/vnd.wav">
+			</audio>
+			-->
+			<!-- Nav -->
+				<!--<a href="#noscroll" id="mute">Toggle sound</a>-->
+				<nav id="nav">
+					<ul>
+						<li><a href="#intro">Home</a></li>
+						<li><a href="#work">Media</a></li>
+						<li><a href="#one">Blog</a></li>
+						<li><a href="http://forum.sisyphus-game.com/">Forum</a></li>
+					</ul>
+				</nav>
 
+		</header>
+		
+	<!-- Intro -->
+		<section id="intro" class="main style1 dark fullscreen">
+			<div class="content container small">
+				<header>
+					<div id="logo-image-wrapper">
+							<img src="images/logo.png" />
+					</div>
+				</header>
+				<p>An Open-world, Story Driven, Survival Experience.</p>
+			</div>
+		</section>
+			
+
+	<section id="work" class="main style3 primary">
+		<div class="content container">
+			<header>
+				<h2>My Work</h2>
+				<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. 
+				Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis 
+				arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
 			</header>
 			
-		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content container small">
-					<header>
-						<div id="logo-image-wrapper">
-   							<img src="images/logo.png" />
-						</div>
-					</header>
-					<p>An Open-world, Story Driven, Survival Experience.</p>
+			<!-- Lightbox Gallery -->
+				<div class="container small gallery">
+					<div class="row flush images">
+						<div class="6u"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a></div>
+						<div class="6u"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a></div>
+					</div>
+					<div class="row flush images">
+						<div class="6u"><a href="images/fulls/03.jpg" class="image fit from-left"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a></div>
+						<div class="6u"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a></div>
+					</div>
+					<div class="row flush images">
+						<div class="6u"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a></div>
+						<div class="6u"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a></div>
+					</div>
 				</div>
-			</section>
+		</div>
+	</section>
 				
-		<!-- Work -->
-			<section id="work" class="main style3 primary">
-				<div class="content container">
-					<!--<header>
-						<h2>My Work</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. 
-						Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis 
-						arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
-					</header>
-					
-					<!-- Lightbox Gallery
-						<div class="container small gallery">
-							<div class="row flush images">
-								<div class="6u"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="The Anonymous Red" alt="" /></a></div>
-								<div class="6u"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Airchitecture II" alt="" /></a></div>
-							</div>
-							<div class="row flush images">
-								<div class="6u"><a href="images/fulls/03.jpg" class="image fit from-left"><img src="images/thumbs/03.jpg" title="Air Lounge" alt="" /></a></div>
-								<div class="6u"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Carry on" alt="" /></a></div>
-							</div>
-							<div class="row flush images">
-								<div class="6u"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="The sparkling shell" alt="" /></a></div>
-								<div class="6u"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a></div>
-							</div>
-						</div>
-					-->
-					<ul>
-						<?php 
-							require($_SERVER['DOCUMENT_ROOT'] . '/blog/wp-load.php'); 
+
+	<!-- Work -->
+		<section id="one" class="main style3 primary">
+			<div class="content container">
+				<ul>
+					<?php 
+						require($_SERVER['DOCUMENT_ROOT'] . '/blog/wp-load.php'); 
 							$args = array(
 								'cat' => about, // Only source posts from a specific category
 								'posts_per_page' => 2 // Specify how many posts you'd like to display
@@ -116,25 +122,25 @@
 				</ul>
 			</div>
 		</section>
-						
-		<!-- Footer -->
-			<footer id="footer">
 
-				<!-- Icons -->
-					<ul class="actions">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					</ul>
+	<!-- Footer -->
+		<footer id="footer">
 
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; <?php echo date("Y") ?> Truverity</li><li>Design: Truverity web team and <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-			
-			</footer>
-		<!-- Safe to load after page JS goes here -->
-		<script src="js/togglesound.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.scrollgress.min.js"></script>
-	</body>
+			<!-- Icons -->
+				<ul class="actions">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				</ul>
+
+			<!-- Menu -->
+				<ul class="menu">
+					<li>&copy; <?php echo date("Y") ?> Truverity</li><li>Design: Truverity web team and <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+		
+		</footer>
+	<!-- Safe to load after page JS goes here -->
+	<script src="js/togglesound.js"></script>
+	<script src="js/jquery.scrolly.min.js"></script>
+	<script src="js/jquery.scrollgress.min.js"></script>
+</body>
 </html>
