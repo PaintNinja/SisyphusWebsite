@@ -56,7 +56,7 @@
    							<img src="images/logo.png" />
 						</div>
 					</header>
-					<p>An Open-world, Story Driven, Survival Experiance.</p>
+					<p>An Open-world, Story Driven, Survival Experience.</p>
 				</div>
 			</section>
 				
