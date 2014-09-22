@@ -82,7 +82,7 @@
 	}
 
 	body {
-		padding-top: 2.5em;
+		padding-top: 0em;
 	}
 
 	#logo {
@@ -97,35 +97,33 @@
 		#logo a {
 			font-size: 1em;
 		}
-	
-	#nav {
-		top: 0;
-		margin:0;
-    	padding:0;
-    	text-align:center;
-		height: 2.5em;
-		line-height: 2.5em;
+
+	#nav ul {
+		margin: 0;
 	}
 
-		#nav ul {
-			margin: 0;
+	#nav ul li {
+		display: inline-block;
+		margin-left: 0.5em;
+		font-size: 0.9em;
+	}
+	
+		#nav ul li a {
+			display: block;
+			color: inherit;
+			text-decoration: none;
+			height: 2.5em;
+			line-height: 2.5em;
+			padding: 0 0.5em 0 0.5em;
+			outline: 0;
+			-webkit-transition: none;
+			transition: none;
 		}
-
-			#nav ul li {
-				display: inline-block;
-				margin-left: 0em;
-				font-size: 0.8em;
+		
+			#nav ul li a:hover {
+				-webkit-animation: none;
+				animation: none;
 			}
-			
-				#nav ul li a {
-					display: block;
-					color: inherit;
-					text-decoration: none;
-					height: 2.5em;
-					line-height: 2.5em;
-					padding: 0 0.4em 0 0.4em;
-					outline: 0;
-				}
 
 /*********************************************************************************/
 /* Footer                                                                        */

@@ -9,20 +9,20 @@
 	var settings = {
 
 		// Fullscreen?
-			fullScreen: true,
+			fullScreen: false,
 			
 		// Section Transitions?
 			sectionTransitions: true,
 
 		// Fade in speed (in ms).
-			fadeInSpeed: 1000
+			fadeInSpeed: 500
 
 	};
 
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'max': { range: '*', href: 'css/style.css', containers: 1440, viewport: { scalable: false }, grid: { gutters: 40 } },
+			'max': { range: '*', href: 'css/style.css', containers: 1440, viewport: { scalable: false } },
 			'wide': { range: '-1920', href: 'css/style-wide.css', containers: 1360 },
 			'normal': { range: '-1680', href: 'css/style-normal.css', containers: 1200 },
 			'narrow': { range: '-1280', href: 'css/style-narrow.css', containers: 960 },
@@ -128,7 +128,7 @@
 					$('.main.style1')
 						.scrollwatch({
 							delay:		50,
-							range:		0.2,
+							range:		0.5,
 							anchor:		'center',
 							on:			function(t) { t.removeClass('inactive'); },
 							off:		function(t) { t.addClass('inactive'); }
