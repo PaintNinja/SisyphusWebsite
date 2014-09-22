@@ -1,0 +1,11 @@
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+<IfModule mod_deflate.c>
+    <filesMatch "\.(js|css|html|htm|php|ico|ttf|eot)$">
+        SetOutputFilter DEFLATE
+    </filesMatch>
+</IfModule>
