@@ -17,12 +17,12 @@
 			<link rel="stylesheet" href="css/style-normal.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<script src="js/jquery.min.js"></script>
+		<script async src="js/jquery.min.js"></script>
 		<script src="js/jquery.poptrox.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
+		<script async src="js/jquery.scrolly.min.js"></script>
 		<script src="js/jquery.scrollgress.min.js"></script>
 		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
+		<script src="js/init.min.js"></script>
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 	</head>
 	<body>
@@ -76,7 +76,7 @@
 					<header>
 						<h2>Something About the Game</h2>
 					</header>
-					<p>About the game here About the game here About the game here About the game here About the game here About the game here About the game here About the game here About the game here About the game here About the game here About the game here About the game here About the game here About the game here </p>
+					<p>Sisyphus is a open-world, survival, story-based horror set in Antarctica, where you play as a young 19 year old, aspiring explorer named Benjamin Miller. The year is 1910 and the South Pole races are in motion; you, Benjamin immediately grasp the opportunity to take up a position in The Sisyphus Expedition, as 'Navigator'. The expedition states that its ethic is to always push forwards, to never give up and use purely man power. Benjamin, despite his lack of experience or knowledge of Antarctic weather conditions, decides to take to the ice wasteland with the expedition team within a month. On the day of the expeditions departure of 1910, Benjamin franticly collects together his maps, compass and general navigational equipment to set off towards the South Pole. 1911, The Sisyphus Expedition land on the barren ice wastelands of Antarctica. Soon after arrival, they progress towards their destination where they set base camp. A week goes by, and the expedition's journey begins. The team step foot out on to the ice as they march towards the pole, but nothing could have prepared them for what was to come...</p>
 				</div>				
 			</section>
 			
