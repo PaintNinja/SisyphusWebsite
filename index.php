@@ -17,9 +17,9 @@
 			<link rel="stylesheet" href="css/style-normal.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<script async src="js/jquery.min.js"></script>
+		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.poptrox.min.js"></script>
-		<script async src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
 		<script src="js/jquery.scrollgress.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.min.js"></script>
