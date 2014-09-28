@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: handwrittenfont;
-    src: url(../fonts/hellogoodbye.otf) format('opentype');
+    src: url(../fonts/hellogoodbye.otf) format('opentype')
 }
 
 /*
@@ -120,18 +120,18 @@
 		}
 		
 	footer {
-		margin-top: 2em;
+		margin-top: 2em
 	}
 
 	br.clear {
-		clear: both;
+		clear: both
 	}
 
 	/* Sections/Article */
 	
 		section,
 		article {
-			margin-bottom: 3em;
+			margin-bottom: 3em
 		}
 		
 			section > :last-child,
@@ -729,7 +729,7 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('../images/intro.jpg');
+		background: url('../images/intro.jxr'),url('../images/intro.jpg');
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: bottom center;
@@ -827,23 +827,23 @@
 			}
 
 				#work .row.images.inactive .image {
-					opacity: 0;
+					opacity: 0
 				}
 			
 				#work .row.images.inactive .image.from-left {
-					left: -14em;
+					left: -14em
 				}
 			
 				#work .row.images.inactive .image.from-right {
-					left: 14em;
+					left: 14em
 				}
 			
 				#work .row.images.inactive .image.from-top {
-					top: -7em;
+					top: -7em
 				}
 			
 				#work .row.images.inactive .image.from-bottom {
-					top: 7em;
+					top: 7em
 				}
 			
 /*********************************************************************************/
@@ -889,17 +889,17 @@
 		background: #39454b;
 		color: #999;
 		color: rgba(185,186,187,0.5);
-		overflow: hidden;
+		overflow: hidden
 	}
 
 		#footer a {
 			color: #999;
-			color: rgba(185,186,187,0.5);
+			color: rgba(185,186,187,0.5)
 		}
 
 			#footer a:hover {
 				color: #bbb;
-				color: rgba(185,186,187,1.0);
+				color: rgba(185,186,187,1.0)
 			}
 	
 		#footer .actions {
@@ -908,16 +908,16 @@
 			top: 0.25em;
 			height: 5em;
 			line-height: 5em;
-			margin: 0;
+			margin: 0
 		}
 		
 			#footer .actions li {
 				font-size: 1.25em;
-				margin: 0;
+				margin: 0
 			}
 			
 				#footer .actions li a {
-					padding: 0.5em;
+					padding: 0.5em
 				}
 		
 		#footer .menu {
@@ -1005,7 +1005,7 @@
 		
 			.poptrox-popup:hover .nav-next,
 			.poptrox-popup:hover .nav-previous {
-				opacity: 0.5;
+				opacity: 0.5
 			}
 
 			.poptrox-popup:hover .nav-next:hover,
