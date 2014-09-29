@@ -11,7 +11,7 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/skel.min.css" />
 			<link rel="stylesheet" href="css/style.min.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-normal.css" />
@@ -52,10 +52,8 @@
 						<p>An Open-world, Story Driven, Survival Experience.</p>
 					</footer>
 					<video width="60%" controls>
-						<source src="https://www.youtube.com/watch?v=f_W5-qcitdQ">
-						<!--<source src="media/trailer.webm" type="video/webm">
-						<source src="media/trailer.ogg" type="video/ogg">
-						<source src="media/trailer.mp4" type="video/mp4">-->
+						<source src="media/trailer.webm" type="video/webm">
+						<source src="media/trailer.mp4" type="video/mp4">
 						Whoops! Your browser is old and doesn't support native <code>video</code> on websites.
 						Please <a href="http://windows.microsoft.com/en-GB/internet-explorer/download-ie" rel="Upgrade your browser for a faster, safer and better experience on the web">upgrade your browser</a> to view the game's trailer. 
 					</video>
