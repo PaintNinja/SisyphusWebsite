@@ -482,7 +482,7 @@
 	/* Box */
 
 		.box {
-			background: url('../images/oldpaper_texture2.jxr'),url('../images/oldpaper_texture2.png') no-repeat;
+			background: url('../images/oldpaper_texture2.png') no-repeat;
 			background-size: 100% 100%;
 			color: #39454b;
 			padding: 2em
