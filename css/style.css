@@ -33,11 +33,9 @@
 		body.is-loading *
 		{
 			-webkit-transition: none !important;
-			-o-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
 			-webkit-animation: none !important;
-			-o-animation: none !important;
 			-ms-animation: none !important;
 			animation: none !important
 		}
@@ -80,7 +78,6 @@
 		color: #98c593;
 
 		-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out, color 0.2s ease-in-out
 	}
@@ -309,7 +306,6 @@
 				appearance: none;
 
 				-webkit-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
-				-o-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: all 0.2s ease-in-out, color 0.2s ease-in-out
 			}
@@ -420,7 +416,6 @@
 			appearance: none;
 
 			-webkit-transition: all 0.2s ease-in-out;
-			-o-transition: all 0.2s ease-in-out;
 			-ms-transition: all 0.2s ease-in-out;
 			transition: all 0.2s ease-in-out
 		}
@@ -520,12 +515,10 @@
 					opacity: 1.0;
 
 					-webkit-transition: all 1s ease;
-					-o-transition: all 1s ease;
 					-ms-transition: all 1s ease;
 					transition: all 1s ease;
 					
 					-webkit-transform: translateZ(0);
-					-o-transform: translateZ(0);
 					-ms-transform: translateZ(0);
 					transform: translateZ(0)
 				}
@@ -547,12 +540,10 @@
 					width: 35%;
 
 					-webkit-transition: all 0.5s ease;
-					-o-transition: all 0.5s ease;
 					-ms-transition: all 0.5s ease;
 					transition: all 0.5s ease;
 					
 					-webkit-transform: translateZ(0);
-					-o-transform: translateZ(0);
 					-ms-transform: translateZ(0);
 					transform: translateZ(0);
 				}
@@ -816,12 +807,10 @@
 				opacity: 1.0;
 			
 				-webkit-transition: all 1s ease;
-				-o-transition: all 1s ease;
 				-ms-transition: all 1s ease;
 				transition: all 1s ease;
 				
 				-webkit-transform: translateZ(0);
-				-o-transform: translateZ(0);
 				-ms-transform: translateZ(0);
 				transform: translateZ(0)
 			}
@@ -863,12 +852,10 @@
 			bottom: 0;
 			
 			-webkit-transition: all 1s ease;
-			-o-transition: all 1s ease;
 			-ms-transition: all 1s ease;
 			transition: all 1s ease;
 			
 			-webkit-transform: translateZ(0);
-			-o-transform: translateZ(0);
 			-ms-transform: translateZ(0);
 			transform: translateZ(0)
 		}
@@ -944,7 +931,6 @@
 		background: #fff;
 		-moz-box-sizing: content-box;
 		-webkit-box-sizing: content-box;
-		-o-box-sizing: content-box;
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
 		padding-bottom: 3em;
@@ -985,7 +971,6 @@
 			cursor: pointer;
 			background: rgba(0,0,0,0.01);
 			-webkit-transition: opacity 0.2s ease-in-out;
-			-o-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255,255,255,0)
@@ -1019,7 +1004,6 @@
 			.poptrox-popup .nav-previous:before
 			{
 				-webkit-transform: scaleX(-1);
-				-o-transform: scaleX(-1);
 				-ms-transform: scaleX(-1);
 				transform: scaleX(-1);
 				-ms-filter: "FlipH";			
@@ -1052,7 +1036,6 @@
 			z-index: 2;
 			opacity: 0;
 			-webkit-transition: opacity 0.2s ease-in-out;
-			-o-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255,255,255,0)
