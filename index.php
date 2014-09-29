@@ -18,9 +18,6 @@
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.poptrox.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.scrollgress.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.min.js"></script>
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
@@ -56,10 +53,11 @@
 					</footer>
 					<video width="60%" controls>
 						<source src="https://www.youtube.com/watch?v=f_W5-qcitdQ">
-						<source src="media/trailer.webm" type="video/webm">
+						<!--<source src="media/trailer.webm" type="video/webm">
 						<source src="media/trailer.ogg" type="video/ogg">
-						<source src="media/trailer.mp4" type="video/mp4">
-						Sorry, your browser does not support the <code>video</code> element.
+						<source src="media/trailer.mp4" type="video/mp4">-->
+						Whoops! Your browser is old and doesn't support native <code>video</code> on websites.
+						Please <a href="http://windows.microsoft.com/en-GB/internet-explorer/download-ie" rel="Upgrade your browser for a faster, safer and better experience on the web">upgrade your browser</a> to view the game's trailer. 
 					</video>
 				</div>
 			</section>
@@ -159,6 +157,8 @@
 				</ul>
 			
 			</footer>
-
+			<script src="js/jquery.poptrox.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/jquery.scrollgress.min.js"></script>
 	</body>
 </html>
