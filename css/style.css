@@ -10,7 +10,10 @@
 }
 @font-face {
     font-family: handwrittenfont;
-    src: url(../fonts/hellogoodbye.otf) format('opentype')
+    src: url(../fonts/hellogoodbye.eot),
+		 url(../fonts/hellogoodbye.eot?#iefix) format('embedded-opentype'),
+		 url(../fonts/hellogoodbye.woff) format('woff'),
+		 url(../fonts/hellogoodbye.ttf) format('truetype');
 }
 
 /*

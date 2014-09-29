@@ -12,7 +12,7 @@
 		<meta name="keywords" content="" />
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style.min.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-normal.css" />
 		</noscript>
