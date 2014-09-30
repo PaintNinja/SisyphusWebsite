@@ -54,7 +54,7 @@
 					<video width="60%" controls>
 						<source src="media/trailer.webm" type="video/webm">
 						<source src="media/trailer.mp4" type="video/mp4">
-						Whoops! Your browser is old and doesn't support native <code>video</code> on websites.
+						Whoops! Your browser is old and doesn't support native <code>video</code> on websites.<br>
 						Please <a href="http://windows.microsoft.com/en-GB/internet-explorer/download-ie" rel="Upgrade your browser for a faster, safer and better experience on the web">upgrade your browser</a> to view the game's trailer. 
 					</video>
 				</div>
