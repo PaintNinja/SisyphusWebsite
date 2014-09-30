@@ -12,7 +12,7 @@
 		<meta name="keywords" content="" />
 		<noscript>
 			<link rel="stylesheet" href="css/skel.min.css" />
-			<link rel="stylesheet" href="css/style.min.css" />
+			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-normal.css" />
 		</noscript>
@@ -23,7 +23,28 @@
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 	</head>
 	<body>
-
+		<!-- Special SEO -->
+		<div class="hidden">
+			<div itemscope itemtype="http://data-vocabulary.org/Product">
+				<img itemprop="image" src="images/logo.png" />
+				<span itemprop="name">Sisyphus</span> by <span itemprop="brand">Truverity</span>
+				<span itemprop="description">An Open-world, Story Driven, Survival Experience.</span>
+				Category: <span itemprop="category" content="Horror game">Horror game</span>
+				<span itemprop="review" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+					<span itemprop="rating">4.56</span> stars, based on <span itemprop="count">6</span> ratings
+				</span>
+			</div>
+			<!--<div itemscope itemtype="http://data-vocabulary.org/Event">
+				​<a href="launchdate.html" itemprop="url">
+					<span itemprop="summary">Official launch</span>
+				</a>
+				<span itemprop="description">The Sisyphus game will launch on the 21st of December, 2014 -
+				Just in time for Christmas!</span>
+				<time itemprop="startDate" datetime="2014-12-21T24:00-12:00">21st December, midnight</time>
+				<time itemprop="endDate" datetime="2015-02-21T24:00-12:00">21st Feburary, midnight</time>
+			</div>-->
+			<!--Let's not mention the launch date until we actually know it-->
+		</div>
 		<!-- Header -->
 			<header id="header">
 				
@@ -45,7 +66,7 @@
 				<div class="content container small">
 					<header>
 						<div id="logo-image-wrapper">
-							<img src="images/logo.png" />
+							<img alt="logo" src="images/logo.png" />
 						</div>
 					</header>
 					<footer>
