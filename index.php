@@ -11,22 +11,22 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<noscript>
-			<link rel="stylesheet" href="css/skel.min.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-			<link rel="stylesheet" href="css/style-normal.css" />
+			<link rel="stylesheet" href="_include/css/skel.min.css" />
+			<link rel="stylesheet" href="_include/css/style.css" />
+			<link rel="stylesheet" href="_include/css/style-wide.css" />
+			<link rel="stylesheet" href="_include/css/style-normal.css" />
 		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.min.js"></script>
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="_include/css/ie/v8.css" /><![endif]-->
+		<script src="_include/js/jquery.min.js"></script>
+		<script src="_include/js/skel.min.js"></script>
+		<script src="_include/js/init.js"></script>
+		<!--[if lte IE 8]><script src="_include/css/ie/html5shiv.js"></script><![endif]-->
 	</head>
 	<body>
 		<!-- Special SEO -->
 		<div class="hidden">
 			<div itemscope itemtype="http://data-vocabulary.org/Product">
-				<img itemprop="image" src="images/logo.png" />
+				<img itemprop="image" src="_include/images/logo.png" />
 				<span itemprop="name">Sisyphus</span> by <span itemprop="brand">Truverity</span>
 				<span itemprop="description">An Open-world, Story Driven, Survival Experience.</span>
 				Category: <span itemprop="category" content="Horror game">Horror game</span>
@@ -66,15 +66,15 @@
 				<div class="content container small">
 					<header>
 						<div id="logo-image-wrapper">
-							<img alt="logo" src="images/logo.png" />
+							<img alt="logo" src="_include/images/logo.png" />
 						</div>
 					</header>
 					<footer>
 						<p>An Open-world, Story Driven, Survival Experience.</p>
 					</footer>
 					<video width="60%" controls>
-						<source src="media/trailer.webm" type="video/webm">
-						<source src="media/trailer.mp4" type="video/mp4">
+						<source src="_include/media/trailer.webm" type="video/webm">
+						<source src="_include/media/trailer.mp4" type="video/mp4">
 						Whoops! Your browser is old and doesn't support native <code>video</code> on websites.<br/>
 						Please <a href="http://windows.microsoft.com/en-GB/internet-explorer/download-ie" rel="Upgrade your browser for a faster, safer and better experience on the web">upgrade your browser</a> to view the game's trailer. 
 					</video>
@@ -107,16 +107,16 @@
 					<!-- Lightbox Gallery  -->
 						<div class="container small gallery">
 							<div class="row flush images">
-								<div class="6u"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="Antarctic Project - Enviromnent Concept 1" alt="" /></a></div>
-								<div class="6u"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Antarctic Survival Game - Enviromnent Concept 2" alt="" /></a></div>
+								<div class="6u"><a href="_include/images/fulls/01.jpg" class="image fit from-left"><img src="_include/images/thumbs/01.jpg" title="Antarctic Project - Enviromnent Concept 1" alt="" /></a></div>
+								<div class="6u"><a href="_include/images/fulls/02.jpg" class="image fit from-right"><img src="_include/images/thumbs/02.jpg" title="Antarctic Survival Game - Enviromnent Concept 2" alt="" /></a></div>
 							</div>
 							<div class="row flush images">
-								<div class="6u"><a href="images/fulls/03.jpg" class="image fit from-left"><img src="images/thumbs/03.jpg" title="Benjamin full body (WIP)" alt="" /></a></div>
-								<div class="6u"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="POV Arms Model" alt="" /></a></div>
+								<div class="6u"><a href="_include/images/fulls/03.jpg" class="image fit from-left"><img src="_include/images/thumbs/03.jpg" title="Benjamin full body (WIP)" alt="" /></a></div>
+								<div class="6u"><a href="_include/images/fulls/04.jpg" class="image fit from-right"><img src="_include/images/thumbs/04.jpg" title="POV Arms Model" alt="" /></a></div>
 							</div>
 							<div class="row flush images">
-								<div class="6u"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Benjamin Textured" alt="" /></a></div>
-								<div class="6u"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="'Framheim' Hut Assembly Concept" alt="" /></a></div>
+								<div class="6u"><a href="_include/images/fulls/05.jpg" class="image fit from-left"><img src="_include/images/thumbs/05.jpg" title="Benjamin Textured" alt="" /></a></div>
+								<div class="6u"><a href="_include/images/fulls/06.jpg" class="image fit from-right"><img src="_include/images/thumbs/06.jpg" title="'Framheim' Hut Assembly Concept" alt="" /></a></div>
 							</div>
 						</div>
 
@@ -176,8 +176,8 @@
 				</ul>
 			
 			</footer>
-			<script src="js/jquery.poptrox.min.js"></script>
-			<script src="js/jquery.scrolly.min.js"></script>
-			<script src="js/jquery.scrollgress.min.js"></script>
+			<script src="_include/js/jquery.poptrox.min.js"></script>
+			<script src="_include/js/jquery.scrolly.min.js"></script>
+			<script src="_include/js/jquery.scrollgress.min.js"></script>
 	</body>
 </html>
