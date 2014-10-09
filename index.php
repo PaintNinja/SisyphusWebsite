@@ -11,22 +11,22 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<noscript>
-			<link rel="stylesheet" href="_include/css/skel.min.css" />
-			<link rel="stylesheet" href="_include/css/style.css" />
-			<link rel="stylesheet" href="_include/css/style-wide.css" />
-			<link rel="stylesheet" href="_include/css/style-normal.css" />
+			<link rel="stylesheet" href="include/css/skel.min.css" />
+			<link rel="stylesheet" href="include/css/style.css" />
+			<link rel="stylesheet" href="include/css/style-wide.css" />
+			<link rel="stylesheet" href="include/css/style-normal.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="_include/css/ie/v8.css" /><![endif]-->
-		<script src="_include/js/jquery.min.js"></script>
-		<script src="_include/js/skel.min.js"></script>
-		<script src="_include/js/init.js"></script>
+		<script src="include/js/jquery.min.js"></script>
+		<script src="include/js/skel.min.js"></script>
+		<script src="include/js/init.js"></script>
 		<!--[if lte IE 8]><script src="_include/css/ie/html5shiv.js"></script><![endif]-->
 	</head>
 	<body>
 		<!-- Special SEO -->
 		<div class="hidden">
 			<div itemscope itemtype="http://data-vocabulary.org/Product">
-				<img itemprop="image" src="_include/images/logo.png" />
+				<img itemprop="image" src="include/images/logo.png" />
 				<span itemprop="name">Sisyphus</span> by <span itemprop="brand">Truverity</span>
 				<span itemprop="description">An Open-world, Story Driven, Survival Experience.</span>
 				Category: <span itemprop="category" content="Horror game">Horror game</span>
@@ -176,8 +176,8 @@
 				</ul>
 			
 			</footer>
-			<script src="_include/js/jquery.poptrox.min.js"></script>
-			<script src="_include/js/jquery.scrolly.min.js"></script>
-			<script src="_include/js/jquery.scrollgress.min.js"></script>
+			<script src="include/js/jquery.poptrox.min.js"></script>
+			<script src="include/js/jquery.scrolly.min.js"></script>
+			<script src="include/js/jquery.scrollgress.min.js"></script>
 	</body>
 </html>
