@@ -66,15 +66,15 @@
 				<div class="content container small">
 					<header>
 						<div id="logo-image-wrapper">
-							<img alt="logo" src="_include/images/logo.png" />
+							<img alt="logo" src="include/images/logo.png" />
 						</div>
 					</header>
 					<footer>
 						<p>An Open-world, Story Driven, Survival Experience.</p>
 					</footer>
 					<video width="60%" controls>
-						<source src="_include/media/trailer.webm" type="video/webm">
-						<source src="_include/media/trailer.mp4" type="video/mp4">
+						<source src="include/media/trailer.webm" type="video/webm">
+						<source src="include/media/trailer.mp4" type="video/mp4">
 						Whoops! Your browser is old and doesn't support native <code>video</code> on websites.<br/>
 						Please <a href="http://windows.microsoft.com/en-GB/internet-explorer/download-ie" rel="Upgrade your browser for a faster, safer and better experience on the web">upgrade your browser</a> to view the game's trailer. 
 					</video>
@@ -107,16 +107,16 @@
 					<!-- Lightbox Gallery  -->
 						<div class="container small gallery">
 							<div class="row flush images">
-								<div class="6u"><a href="_include/images/fulls/01.jpg" class="image fit from-left"><img src="_include/images/thumbs/01.jpg" title="Antarctic Project - Enviromnent Concept 1" alt="" /></a></div>
-								<div class="6u"><a href="_include/images/fulls/02.jpg" class="image fit from-right"><img src="_include/images/thumbs/02.jpg" title="Antarctic Survival Game - Enviromnent Concept 2" alt="" /></a></div>
+								<div class="6u"><a href="include/images/fulls/01.jpg" class="image fit from-left"><img src="include/images/thumbs/01.jpg" title="Antarctic Project - Enviromnent Concept 1" alt="" /></a></div>
+								<div class="6u"><a href="include/images/fulls/02.jpg" class="image fit from-right"><img src="include/images/thumbs/02.jpg" title="Antarctic Survival Game - Enviromnent Concept 2" alt="" /></a></div>
 							</div>
 							<div class="row flush images">
-								<div class="6u"><a href="_include/images/fulls/03.jpg" class="image fit from-left"><img src="_include/images/thumbs/03.jpg" title="Benjamin full body (WIP)" alt="" /></a></div>
-								<div class="6u"><a href="_include/images/fulls/04.jpg" class="image fit from-right"><img src="_include/images/thumbs/04.jpg" title="POV Arms Model" alt="" /></a></div>
+								<div class="6u"><a href="include/images/fulls/03.jpg" class="image fit from-left"><img src="include/images/thumbs/03.jpg" title="Benjamin full body (WIP)" alt="" /></a></div>
+								<div class="6u"><a href="include/images/fulls/04.jpg" class="image fit from-right"><img src="include/images/thumbs/04.jpg" title="POV Arms Model" alt="" /></a></div>
 							</div>
 							<div class="row flush images">
-								<div class="6u"><a href="_include/images/fulls/05.jpg" class="image fit from-left"><img src="_include/images/thumbs/05.jpg" title="Benjamin Textured" alt="" /></a></div>
-								<div class="6u"><a href="_include/images/fulls/06.jpg" class="image fit from-right"><img src="_include/images/thumbs/06.jpg" title="'Framheim' Hut Assembly Concept" alt="" /></a></div>
+								<div class="6u"><a href="include/images/fulls/05.jpg" class="image fit from-left"><img src="include/images/thumbs/05.jpg" title="Benjamin Textured" alt="" /></a></div>
+								<div class="6u"><a href="include/images/fulls/06.jpg" class="image fit from-right"><img src="include/images/thumbs/06.jpg" title="'Framheim' Hut Assembly Concept" alt="" /></a></div>
 							</div>
 						</div>
 
