@@ -25,12 +25,14 @@
 	/* Box */
 
 		.box {
-			padding: 1em;
+			background: url('../images/oldpaper_texture2.jxr'),url('../images/oldpaper_texture2.png') no-repeat;
+			background-size: 100%;
+			color: #39454b;
+			padding: 2em
 		}
 
 			.box.style2 {
 				padding: 1.5em 1.25em 1.5em 1.25em;
-				background-color: rgba(255,255,255,0.9);
 			}
 
 	/* Main */
