@@ -16,11 +16,11 @@
 			<link rel="stylesheet" href="include/css/style-wide.css" />
 			<link rel="stylesheet" href="include/css/style-normal.css" />
 		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="_include/css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="include/css/ie/v8.css" /><![endif]-->
 		<script src="include/js/jquery.min.js"></script>
 		<script src="include/js/skel.min.js"></script>
 		<script src="include/js/init.js"></script>
-		<!--[if lte IE 8]><script src="_include/css/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="include/css/ie/html5shiv.js"></script><![endif]-->
 	</head>
 	<body>
 		<!-- Special SEO -->
